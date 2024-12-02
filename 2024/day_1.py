@@ -6,7 +6,7 @@ Author: James M. Horne
 from collections import Counter, defaultdict
 
 if __name__ == '__main__':
-    with open(file='1.data', encoding='utf-8') as f:
+    with open(file='./puzzle_input/1', encoding='utf-8') as f:
         data = f.read()
 
     # test data

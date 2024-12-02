@@ -56,7 +56,7 @@ def is_safe_with_removal(report:list) -> int:
     return 0
 
 if __name__ == '__main__':
-    with open(file='2.data', encoding='utf-8') as f:
+    with open(file='./puzzle_input/2', encoding='utf-8') as f:
         data = f.read()
 
     # # Test data
